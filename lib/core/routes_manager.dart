@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:kidney/home.dart';
-import 'package:kidney/result.dart';
+import 'package:kidney/screens/home.dart';
+import 'package:kidney/screens/result.dart';
 
 class RoutesManager {
   static const String home = "/";
