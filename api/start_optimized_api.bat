@@ -1,0 +1,9 @@
+@echo off
+echo Starting Optimized Kidney Disease Prediction API...
+echo.
+echo Installing dependencies...
+pip install -r requirements.txt
+echo.
+echo Starting optimized server...
+python main_optimized.py
+pause 
