@@ -5,17 +5,7 @@ A comprehensive mobile application that leverages artificial intelligence to det
 
 ### 📸 Screenshots
 
-Home screen  
-![Home](assets\screenshots\main.jpg)
 
-Image selection  
-![Select Image](assets\screenshots\image_pick.jpg)
-
-Analyzing result  
-![Analyze](assets\screenshots\segm_analyze.jpg)
-
-Prediction result  
-![Result](assets\screenshots\tumor.jpg)
 
 
 
