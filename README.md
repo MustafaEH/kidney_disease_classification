@@ -3,6 +3,23 @@
 
 A comprehensive mobile application that leverages artificial intelligence to detect and classify kidney diseases from medical images. Built with Flutter for cross-platform mobile development and powered by a sophisticated FastAPI backend with deep learning models.
 
+### 📸 Screenshots
+
+Home screen  
+![Home](assets\screenshots\main.jpg)
+
+Image selection  
+![Select Image](assets\screenshots\image_pick.jpg)
+
+Analyzing result  
+![Analyze](assets\screenshots\segm_analyze.jpg)
+
+Prediction result  
+![Result](assets\screenshots\tumor.jpg)
+
+
+
+
 ## 🌟 Key Features
 
 ### �� AI-Powered Disease Detection
