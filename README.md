@@ -5,7 +5,23 @@ A comprehensive mobile application that leverages artificial intelligence to det
 
 ### 📸 Screenshots
 
+<h3>Home Screen</h3>
+<img src="assets/screenshots/main.jpg" alt="Home" width="350"/>
 
+<h3>Image Selection</h3>
+<img src="assets/screenshots/image_pick.jpg" alt="Select Image" width="350"/>
+
+<h3>Gallery</h3>
+<img src="assets\screenshots\gallery.jpg" alt="Select Image" width="350"/>
+
+<h3>Kidney Selected</h3>
+<img src="assets\screenshots\selected_kidney.jpg" alt="Select Image" width="350"/>
+
+<h3>Analyzing Result</h3>
+<img src="assets/screenshots/segm_analyze.jpg" alt="Analyze" width="350"/>
+
+<h3>Prediction Result</h3>
+<img src="assets/screenshots/tumor.jpg" alt="Result" width="350"/>
 
 
 
