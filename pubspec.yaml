@@ -30,6 +30,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -39,17 +41,18 @@ dependencies:
   device_info_plus: ^11.5.0
   flutter_screenutil: ^5.9.3
   flutter_launcher_icons: ^0.14.4
+  tflite_flutter: ^0.11.0
+  image: ^4.5.4
+  http: ^1.1.0
+  convert: ^3.1.1
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
 
 dev_dependencies:
   flutter_launcher_icons: "^0.14.4"
-flutter_launcher_icons:
-  android: true
-  ios: true
-  image_path: "assets/kidney.png"
-  min_sdk_android: 21 # android min sdk min:16, default 21
+  flutter_native_splash: ^2.3.7
   flutter_test:
     sdk: flutter
-
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -58,11 +61,39 @@ flutter_launcher_icons:
   # rules and activating additional ones.
   flutter_lints: ^5.0.0
 
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/kidney.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/kidney.png
+  branding: assets/kidney.png
+  color_dark: "#000000"
+  image_dark: assets/kidney.png
+  branding_dark: assets/kidney.png
+  android_12:
+    image: assets/kidney.png
+    icon_background_color: "#FFFFFF"
+    image_dark: assets/kidney.png
+    icon_background_color_dark: "#000000"
+  web: false
+  android: true
+  ios: true
+  image_size: 200
+  branding_size: 150
+  fullscreen: true
+  android_gravity: center
+  ios_content_mode: center
+
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
 flutter:
+  generate: true
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
